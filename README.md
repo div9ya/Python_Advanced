@@ -1,4 +1,4 @@
-# ython Advanced Learning Journey
+# Python Advanced Learning Journey
 
 > Documenting my learning journey while following the  
 > **Python for Data Domain – Advanced Tutorial** by the creator.  
