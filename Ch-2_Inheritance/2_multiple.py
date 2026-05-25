@@ -15,7 +15,7 @@ class employee(company):
         self.employee_name=employee_name
         self.company_name=company_name
 
-    def employee_info(self):
+    def info(self):
         response=company.info(self)
         print(f"The Employee: {self.employee_name} , {response}")
 
@@ -26,13 +26,15 @@ class contractor(company):
         self.contractor_name=contractor_name
         self.company_name=company_name
 
-    def contractor_info(self):
+    def info(self):
         response=company.info(self)
         print(f"The Contractor: {self.contractor_name} , {response}")
 
 
+# if same name then look for closest member 
+
 obj=employee("John Doe","Tech Soutions")
-obj.employee_info()
+obj.info()
 
 obj2=contractor("Jane Smith","Tech Solutions")
-obj2.contractor_info()
+obj2.info()
