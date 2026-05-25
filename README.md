@@ -1,7 +1,7 @@
 # Python Advanced Learning Journey
 
 > Documenting my learning journey while following the  
-> **Python for Data Domain – Advanced Tutorial** by the creator.  
+> **Python for Data Domain – Advanced Tutorial**.  
 > This repository contains my practice code, notes, experiments, and implementations based on the course.
 
 ---
